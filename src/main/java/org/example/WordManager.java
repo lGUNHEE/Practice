@@ -9,7 +9,8 @@ public class WordManager {
             wordCRUD = new WordCRUD(s);
         }
     public int select (){
-        System.out.print("***Master english words***\n"
+        System.out.print("\n" +
+                "***Master english words***\n"
                 + "*****************************\n"
                 + "1. See all of words\n"
                 + "2. See words by levels\n"
@@ -25,6 +26,8 @@ public class WordManager {
     }
 
         public void start() {
+            wordCRUD.loadFile();
+
             while (true) {
                 int menu = select();
                 System.out.println(menu);
@@ -34,9 +37,24 @@ public class WordManager {
                 }
                 else if (menu ==2){
 
+                    wordCRUD.list_level();
                 }
-                if(menu == 4){
+
+                else if (menu == 3){
+                    wordCRUD.searchWord();
+                }
+                else if(menu == 4){
                     wordCRUD.add_word();
+                }
+
+                else if (menu == 5){
+                    wordCRUD.update_list();
+                }
+                else if (menu == 6){
+                    wordCRUD.delete_one();
+                }
+                else if (menu == 7){
+                    wordCRUD.saveFile();
                 }
 
             }
