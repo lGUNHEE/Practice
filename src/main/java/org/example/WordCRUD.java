@@ -2,7 +2,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordCRUD implements ICRUD{
+public class WordCRUD implements ICRUD {
     Scanner s ;
     ArrayList <Word> list;
     WordCRUD(Scanner s){
@@ -24,6 +24,7 @@ public class WordCRUD implements ICRUD{
     list.add(one);
     System.out.print("The new word has been added in the vocabulary. ");
     }
+
 
 
 
