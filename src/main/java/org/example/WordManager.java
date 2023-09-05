@@ -33,7 +33,7 @@ public class WordManager {
                     wordCRUD.listAll();
                 }
                 else if (menu ==2){
-                    wordCRUD.list_by_level();
+
                 }
                 if(menu == 4){
                     wordCRUD.add_word();

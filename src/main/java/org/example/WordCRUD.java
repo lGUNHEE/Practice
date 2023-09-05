@@ -41,9 +41,7 @@ public class WordCRUD implements ICRUD{
     public void selectOne(int id) {
 
     }
-    public void list_by_level (){
 
-    }
 
     public void listAll() {
         System.out.println("---------------------");
