@@ -1,0 +1,8 @@
+3|superintendent|관리자, 감독관
+1|electronic|전기의, 전기를 생산하는
+2|equipment|장비
+1|stock|주식
+2|seagull|갈매기
+1|pole|기둥, 장대
+3|subordinate|부하의, 하급자의
+1| apple|사과

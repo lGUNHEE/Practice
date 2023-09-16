@@ -28,6 +28,7 @@ public class WordManager {
         public void start() {
             wordCRUD.loadFile();
 
+
             while (true) {
                 int menu = select();
                 System.out.println(menu);

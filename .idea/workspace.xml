@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c27511ae-c880-43d4-97b2-b9b1a8a37d25" name="Changes" comment="??">
-      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
@@ -51,7 +53,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leegunhee/IdeaProjects/Practice/src/main/java/org/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leegunhee/Documents/2023 가을학기/실전프로젝트1/IdeaProjects/Practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,7 +83,16 @@
       <workItem from="1693834487181" duration="743000" />
       <workItem from="1693896506590" duration="2305000" />
       <workItem from="1693898988918" duration="2933000" />
-      <workItem from="1693914582758" duration="9214000" />
+      <workItem from="1693914582758" duration="9954000" />
+      <workItem from="1694156248065" duration="1088000" />
+      <workItem from="1694159157972" duration="2603000" />
+      <workItem from="1694584689736" duration="1413000" />
+      <workItem from="1694608573937" duration="2000" />
+      <workItem from="1694760640786" duration="33000" />
+      <workItem from="1694846878306" duration="528000" />
+      <workItem from="1694847673473" duration="44000" />
+      <workItem from="1694849944213" duration="276000" />
+      <workItem from="1694850228745" duration="4234000" />
     </task>
     <task id="LOCAL-00001" summary="Create first project.">
       <option name="closed" value="true" />
@@ -131,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693900462620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="??">
+      <option name="closed" value="true" />
+      <created>1693932251848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693932251848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

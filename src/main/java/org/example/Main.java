@@ -9,6 +9,5 @@ public class Main {
         new WordManager().start();
 
 
-
     }
 }

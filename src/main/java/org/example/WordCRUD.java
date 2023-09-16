@@ -1,19 +1,27 @@
 package org.example;
 import javax.lang.model.type.ArrayType;
 import java.io.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+import java.sql.Connection;
+import java.sql.Statement;
 
 
 public class WordCRUD implements ICRUD {
     Scanner s ;
     final String filename = "dictionary.txt";
     ArrayList <Word> list;
+    Connection conn;
+
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
+
     }
+
+
     @Override
     public Object add() {
         System.out.print("Difficulty & Input new word : ");
@@ -123,6 +131,8 @@ public class WordCRUD implements ICRUD {
             throw new RuntimeException(e);
         }
     }
+
+
 
     public void list_level(){
         System.out.print("---- 원하는 레벨은?(1~3)");
